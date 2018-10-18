@@ -14,3 +14,5 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym 'RESTful'
 # end
+
+Foobar = 'Hi im a string from rails'
