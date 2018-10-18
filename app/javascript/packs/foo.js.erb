@@ -1,1 +1,7 @@
-export default () => "<%= Foobar %>"
+export default () => {
+  <% name = 'Erb' %>
+
+  console.log('Hello world from <%= name %>')
+
+  return "<%= Foobar %>"
+}

@@ -5,5 +5,14 @@ module.exports = {
   output: {
     filename: `[name].[hash].js`,
     path: path.resolve('public/bundles')
+  },
+  module: {
+    rules: [
+      {
+        test: /\.erb$/,
+        enforce: 'pre',
+        loader: 'rails-erb-loader'
+      },
+    ]
   }
 }

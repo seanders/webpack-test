@@ -11,5 +11,6 @@ import FoobarMessageFunc from './foo.js.erb';
 
 console.group('Webpacker')
 console.log('Start of string', FoobarMessageFunc())
+
 console.groupEnd('Webpacker')
 
